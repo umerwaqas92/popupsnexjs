@@ -14,9 +14,11 @@ export default function RootLayout({ children }) {
   return (
     <html data-theme="mytheme" lang="en">
 
+<GoogleAnalytics gaId={"G-Z53XJ5649S"} />
+
       <body className={inter.className}>
         
-      <GoogleAnalytics gaId={"G-Z53XJ5649S"} />
+     
 
         {children}
         </body>
