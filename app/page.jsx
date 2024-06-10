@@ -21,7 +21,7 @@ export default function Home() {
    
    {/* call button ppup */}
    <div className="flex fixed bottom-4 right-4 z-10  bg-orange-400 rounded-full  size-14  container justify-center items-center  shadow-xl">
-    <Link href="tel:1800-123-4567"> <Phone className="text-white" size={30} /></Link>
+    <Link href="tel:+1 831 471 5881"> <Phone className="text-white" size={30} /></Link>
   </div>
 
 
@@ -53,7 +53,7 @@ export default function Home() {
    
    
    <h2 className="text-6xl text-center font-black text-black md:mt-32   ">
-    <Link href="tel:1800-123-4567">Call Now: 1800-123-4567</Link>
+    <Link href="tel:1800-123-4567">Call Now: +1 831 471 5881</Link>
     </h2>
    
    <p className="text-xl text-center"> Our experts are available 24/7 to help you with any issues you may have</p>
