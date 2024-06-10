@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { GoogleAnalytics } from '@next/third-parties/google'
+// import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html data-theme="mytheme" lang="en">
 
-<GoogleAnalytics gaId={"G-Z53XJ5649S"} />
+{/* <GoogleAnalytics gaId={"G-Z53XJ5649S"} /> */}
 
       <body className={inter.className}>
         
