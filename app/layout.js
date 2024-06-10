@@ -1,7 +1,5 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-// import { GoogleAnalytics } from '@next/third-parties/google'
-
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 
@@ -15,7 +13,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html data-theme="mytheme" lang="en">
-
 
       <body className={inter.className}>
         
